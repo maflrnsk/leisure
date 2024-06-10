@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Экскурсии в музеи",
+    "image": "museum",
+    "box": false
+  },
+  {
+    "name": "Компьютерные игры",
+    "image": "game",
+    "box": false
+  },
+  {
+    "name": "Пешие прогулки",
+    "image": "walk",
+    "box": false
+  },
+  {
+    "name": "Большой теннис",
+    "image": "tennis",
+    "box": false
+  },
+  {
+    "name": "Парусный спорт",
+    "image": "sailing",
+    "box": false
+  },
+  {
+    "name": "Велоспорт",
+    "image": "bike",
+    "box": false
+  },
+  {
+    "name": "Кинотеатры",
+    "image": "cinema",
+    "box": false
+  },
+  {
+    "name": "Рисование",
+    "image": "drawing",
+    "box": false
+  },
+  {
+    "name": "Театры",
+    "image": "theatre",
+    "box": false
+  }
+]

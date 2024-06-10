@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/back"
+            android:textColor="@color/color1"
+            android:backgroundTint="@color/color2"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/previousMonthAction"
+            android:textStyle="bold"
+            android:onClick="previousMonthAction"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/monthYearTV"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Май 2024"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/color2"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/forward"
+            android:backgroundTint="@color/color2"
+            android:textColor="@color/color1"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:id="@+id/nextMonthAction"
+            android:textStyle="bold"
+            android:onClick="nextMonthAction"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ПН"
+            android:textColor="@color/color2"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ВТ"
+            android:textColor="@color/color2"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="СР"
+            android:textColor="@color/color2"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ЧТ"
+            android:textColor="@color/color2"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ПТ"
+            android:textColor="@color/color2"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="СБ"
+            android:textColor="@color/color2"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ВС"
+            android:textColor="@color/color2"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/calendarRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Очистить календарь"
+            android:backgroundTint="@color/color2"
+            android:textColor="@color/color1"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/clear"
+            android:onClick="nextMonthAction" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+

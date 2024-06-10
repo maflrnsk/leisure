@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+tools:context=".LogIn"
+android:background="@drawable/img1">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="24dp"
+        android:background="@color/color1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вход"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/color2"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editemail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:backgroundTint="@color/color2"
+            android:textColor="@color/color2"
+            android:hint="Введите почту"/>
+
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:backgroundTint="@color/color2"
+            android:textColor="@color/color2"
+            android:hint="Введите пароль"/>
+
+        <Button
+            android:id="@+id/buttonlogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Войти"
+            android:textSize="16dp"
+            android:textColor="@color/color1"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:backgroundTint="@color/color2"/>
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Нет аккаунта? Зарегистрироваться"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color2"
+            android:padding="5dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,58 @@
+{
+  "event": [
+    {
+      "position": 0,
+      "namesArray": ["Петровский путевой дворец", "Экскурсия по выставке 'Москвичка. Женщины советской столицы 1920-1930-х'", "Экскурсия в здания московского электрозавода"],
+      "drawableArray": ["R.drawable.museum1", "R.drawable.museum2", "R.drawable.museum3"],
+      "dateArray": ["2024-05-28", "2024-05-30", "2024-06-02"]
+    },
+    {
+      "position": 1,
+      "namesArray": ["Stardew Valley", "Phasmophobia", "Untitled Goose Game", "Super Mario", "Sims 4", "Undertale", "Genshin Impact"],
+      "drawableArray": ["R.drawable.game1", "R.drawable.game2", "R.drawable.game3", "R.drawable.game4", "R.drawable.game5", "R.drawable.game6", "R.drawable.game7"],
+      "dateArray": ["2024-05-19", "2024-05-26", "2024-06-06", "2024-06-11", "2024-06-25", "2024-07-04", "2024-07-13"]
+    },
+    {
+      "position": 2,
+      "namesArray": ["Сад 'Эрмитаж'", "Парк 'Сокольники'", "Парк Горького"],
+      "drawableArray": ["R.drawable.walk1", "R.drawable.walk2", "R.drawable.walk3"],
+      "dateArray": ["2024-05-25", "2024-05-31", "2024-06-06"]
+    },
+    {
+      "position": 3,
+      "namesArray": ["Площадка в Раменках", "Турнир на Юго-Западной", "Площадка на ВДНХ"],
+      "drawableArray": ["R.drawable.tennis1", "R.drawable.tennis2", "R.drawable.tennis3"],
+      "dateArray": ["2024-05-30", "2024-06-09", "2024-06-12"]
+    },
+    {
+      "position": 4,
+      "namesArray": ["Химкинское водохранилище", "Ореховая бухта", "Клязьминское водохранилище"],
+      "drawableArray": ["R.drawable.sailing1", "R.drawable.sailing2", "R.drawable.sailing3"],
+      "dateArray": ["2024-05-19", "2024-05-20", "2024-06-12"]
+    },
+    {
+      "position": 5,
+      "namesArray": ["Первенство Москвы", "Чемпионат России", "Кубок двух столиц"],
+      "drawableArray": ["R.drawable.bike1", "R.drawable.bike2", "R.drawable.bike3"],
+      "dateArray": ["2024-05-23", "2024-05-31", "2024-06-09"]
+    },
+    {
+      "position": 6,
+      "namesArray": ["Киномакс Титан", "Формула Кино", "Синема ПАРК"],
+      "drawableArray": ["R.drawable.cinema1", "R.drawable.cinema2", "R.drawable.cinema3"],
+      "dateArray": ["2024-05-22", "2024-06-18", "2024-06-29"]
+    },
+    {
+      "position": 7,
+      "namesArray": ["Парк Останкино", "Парк 850-летия Москвы", "Парк 'Фили'"],
+      "drawableArray": ["R.drawable.drawing1", "R.drawable.drawing2", "R.drawable.drawing3"],
+      "dateArray": ["2024-05-26", "2024-05-29", "2024-06-03"]
+    },
+    {
+      "position": 8,
+      "namesArray": ["Большой театр", "Театр на Бронной", "Театр Модерн"],
+      "drawableArray": ["R.drawable.theatre1", "R.drawable.theatre2", "R.drawable.theatre3"],
+      "dateArray": ["2024-05-22", "2024-05-29", "2024-06-08"]
+    }
+  ]
+}

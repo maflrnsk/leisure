@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.DialogWhenLarge">
+        <item name="colorPrimary">@color/color2</item>
+        <item name="colorPrimaryDark">@color/color2</item>
+        <item name="android:navigationBarColor">@color/color1</item>
+        <item name="android:windowBackground">@color/color1</item>
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+    <style name="Base.Theme.Other" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">@color/color2</item>
+        <item name="android:navigationBarColor">@color/color1</item>
+    </style>
+</resources>
